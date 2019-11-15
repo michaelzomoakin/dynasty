@@ -7829,6 +7829,15 @@ h2.widgettitle {
     margin: 0px 0px 40px 0px; }
   .hero-image-content .btn, .hero-image-content .detail-gallery .owl-next, .detail-gallery .hero-image-content .owl-next, .hero-image-content .detail-gallery .owl-prev, .detail-gallery .hero-image-content .owl-prev {
     margin-right: 20px; }
+    @media (max-width: 767px) {
+      .hero-image-content h1{
+        font-size: 28px;
+      font-weight: 150;
+        } 
+        .hero-image-content p{
+          font-size: 16px;
+          } 
+      }
  
 
 
